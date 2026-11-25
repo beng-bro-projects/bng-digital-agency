@@ -15,7 +15,7 @@ export default function WhatsAppButton() {
 
   return (
     <a
-      href={`https://wa.me/22391220321?text=${MESSAGE}`}
+      href={`https://wa.me/33780718508?text=${MESSAGE}`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Discuter sur WhatsApp avec BNG Digital Agency"

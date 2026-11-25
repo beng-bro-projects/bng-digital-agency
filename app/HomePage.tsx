@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { catalogue } from './mini-jeux/jeux';
 import { faqs } from './home-data';
 
-const WHATSAPP = `https://wa.me/22391220321?text=${encodeURIComponent("Bonjour BNG, j'aimerais un devis gratuit pour mon projet.")}`;
+const WHATSAPP = `https://wa.me/33780718508?text=${encodeURIComponent("Bonjour BNG, j'aimerais un devis gratuit pour mon projet.")}`;
 
 export default function HomePage() {
   const expertises = [

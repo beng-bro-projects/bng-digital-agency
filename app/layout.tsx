@@ -88,13 +88,23 @@ const organization = {
         { '@type': 'Place', name: 'Monde' },
       ],
       availableLanguage: ['fr', 'en'],
-      contactPoint: {
-        '@type': 'ContactPoint',
-        telephone: '+22391220321',
-        email: 'bngdigitalagency@gmail.com',
-        contactType: 'customer service',
-        availableLanguage: ['French', 'English'],
-      },
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          telephone: '+22391220321',
+          email: 'bngdigitalagency@gmail.com',
+          contactType: 'customer service',
+          areaServed: 'ML',
+          availableLanguage: ['French', 'English'],
+        },
+        {
+          '@type': 'ContactPoint',
+          telephone: '+33780718508',
+          contactType: 'sales',
+          description: 'WhatsApp',
+          availableLanguage: ['French', 'English'],
+        },
+      ],
       sameAs: ['https://www.instagram.com/bng_digital_agency'],
       hasOfferCatalog: {
         '@type': 'OfferCatalog',

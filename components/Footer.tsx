@@ -157,12 +157,22 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="https://wa.me/22391220321"
+                  href="https://wa.me/33780718508"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group p-6 bg-white/[0.03] border border-white/5 rounded-2xl hover:border-green-500 transition-all duration-500"
                 >
                   <div className="text-green-500 text-[10px] font-bold uppercase tracking-widest mb-4">WhatsApp Direct</div>
+                  <div className="text-white text-sm font-medium group-hover:translate-x-1 transition-transform">
+                    +33 7 80 71 85 08
+                  </div>
+                </a>
+
+                <a
+                  href="tel:+22391220321"
+                  className="group md:col-span-2 p-6 bg-white/[0.03] border border-white/5 rounded-2xl hover:border-accentBlue transition-all duration-500"
+                >
+                  <div className="text-accentBlue text-[10px] font-bold uppercase tracking-widest mb-4">Appeler (Mali)</div>
                   <div className="text-white text-sm font-medium group-hover:translate-x-1 transition-transform">
                     +223 91 22 03 21
                   </div>

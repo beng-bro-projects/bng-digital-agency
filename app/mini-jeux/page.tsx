@@ -4,7 +4,7 @@ import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { catalogue } from './jeux';
 
-const WHATSAPP = 'https://wa.me/22391220321?text=' +
+const WHATSAPP = 'https://wa.me/33780718508?text=' +
   encodeURIComponent("Bonjour BNG, je suis intéressé(e) par un mini-jeu à ma marque.");
 
 const etapes = [
