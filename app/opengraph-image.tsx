@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
 
-export const alt = 'BNG Digital Agency — Excellence digitale à Bamako & à l’international'
+export const alt = 'BNG Digital Agency — Sites web & logiciels de gestion sur mesure'
 export const size = {
   width: 1200,
   height: 630,
@@ -53,10 +53,13 @@ export default async function Image() {
           </div>
         </div>
         <div style={{ fontSize: '72px', fontWeight: 900, lineHeight: 1.1 }}>
-          Excellence digitale
+          Sites web & logiciels
         </div>
-        <div style={{ fontSize: '40px', color: '#9CA3AF', marginTop: '16px' }}>
-          Bamako • International
+        <div style={{ fontSize: '72px', fontWeight: 900, lineHeight: 1.1, color: '#60A5FA' }}>
+          de gestion sur mesure
+        </div>
+        <div style={{ fontSize: '32px', color: '#9CA3AF', marginTop: '28px' }}>
+          Prix accessibles • Devis 24 h • Bamako & International
         </div>
       </div>
     ),

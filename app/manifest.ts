@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'BNG Digital Agency',
     short_name: 'BNG',
     description:
-      'Agence digitale premium à Bamako : création web, branding, marketing digital et production vidéo.',
+      'Agence digitale à Bamako : sites web et logiciels de gestion sur mesure à prix accessibles.',
     start_url: '/',
     display: 'standalone',
     background_color: '#0A0A0A',

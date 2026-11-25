@@ -62,7 +62,8 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-xs">Expertises</h4>
             <ul className="space-y-4 text-gray-500 text-sm">
-              <li className="hover:text-white transition-colors cursor-default">Développement Web</li>
+              <li className="hover:text-white transition-colors cursor-default">Sites web</li>
+              <li className="hover:text-white transition-colors cursor-default">Logiciels de gestion</li>
               <li className="hover:text-white transition-colors cursor-default">Marketing Digital</li>
               <li className="hover:text-white transition-colors cursor-default">Branding & UI/UX</li>
               <li className="hover:text-white transition-colors cursor-default">Production Vidéo</li>

@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '')
 
 export const metadata: Metadata = {
-  title: 'Contact — BNG Digital Agency',
-  description: "Discutons de votre projet digital. Contactez BNG Digital Agency à Bamako pour vos besoins en développement web, branding, marketing digital et production vidéo.",
+  title: 'Contact — Devis gratuit sous 24 h',
+  description: "Discutons de votre projet digital. Contactez BNG Digital Agency à Bamako pour un site web, un logiciel de gestion sur mesure, du branding ou du marketing digital. Devis gratuit sous 24 h.",
   ...(siteUrl ? { alternates: { canonical: `${siteUrl}/contact` } } : {}),
 }
 
